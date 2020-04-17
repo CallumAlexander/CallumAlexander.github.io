@@ -1,0 +1,15 @@
+body {
+    background-color: cadetblue;
+}
+h1 {
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    color: orangered;
+    font-family: monospace;
+}
+p {
+    border: 1px dotted palegreen;
+    padding: 30px;
+}
