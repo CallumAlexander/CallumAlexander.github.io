@@ -1,5 +1,10 @@
 body {
     background-color: cadetblue;
+    max-width: 500px;
+    margin: auto;
+}
+.TitleSection {
+    background-color: seagreen;
 }
 h1 {
     color: orangered;
