@@ -32,7 +32,16 @@
             So I got to work. <br>
             I downloaded chromedriver and hooked it up to my chrome browser. I also pip installed selenium, which was my 
             web automation tool of choice, and finally, booted up SpyderIDE - my ide and editor of choice at the time through conda -
-            since this whole script would be implemented using python
+            since this whole script would be implemented using Python. Boom boom boom. Easy stuff. <br>
+            My first task was to set up a method that would run through step by step the login process to the website. This process
+            I broke down to running the browser, finding the login elements, enter the login data, logining in, clicking the 
+            change booking date, clicking the earliest available date, clicking another botton (ik this seems long, but is actually
+            a really short process irl), and finally finding the month of the earliest available date and returning it. <br>
+            whew <br>
+            Then, I wrote a simple main loop that loops forever, checking whether the month returned is an ideal month - July or August,
+            then implementing sleep method to delay each time the program checks.
+            When an ideal month is found, a python library for conventiently playing mp3s plays some sound. <br>
+            Some of the code in the accompanying github has been changed to hide my passwords and login info
         </p>
         
     </body>
