@@ -1,20 +1,30 @@
 body {
+    font-family: 'Courier New', Courier, monospace;
     background-color: aqua;
     max-width: 700px;
     margin: auto;
 }
+
 .TitleSection {
-    background-color: seagreen;
+    background-color: rgb(3, 93, 86);
 }
+
 h1 {
     color: orangered;
     font-family: 'Courier New', Courier, monospace;
 }
+
 h2 {
     color: orangered;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 p {
-    border: 1px dotted palegreen;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px dotted orangered;
     padding: 30px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
 }
