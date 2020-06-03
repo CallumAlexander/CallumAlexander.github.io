@@ -1,27 +1,27 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: aqua;
+    background-color: #2c003e;
     max-width: 900px;
     margin: auto;
 }
 
 .TitleSection {
-    background-color: rgb(1, 151, 139);
+    background-color: #512b58;
 }
 
 h1 {
-    color: orangered;
+    color: #fe346e;
     font-family: 'Courier New', Courier, monospace;
 }
 
 h2 {
-    color: orangered;
+    color: #fe346ev;
     font-family: 'Courier New', Courier, monospace;
 }
 
 p {
     font-family: 'Courier New', Courier, monospace;
-    border: 1px dotted orangered;
+    border: 1px dotted #fe346e;
     padding: 30px;
 }
 
@@ -37,11 +37,11 @@ li {
 
 #project {
     font-family: 'Courier New', Courier, monospace;
-    border: 1px dotted orangered;
+    border: 1px dotted #fe346e;
     padding: 30px;
 }
 
 #nav_bar {
-    background-color: rgb(0, 182, 199);
+    background-color: #d2fafb;
     overflow: hidden;
 }
