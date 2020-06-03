@@ -35,6 +35,12 @@ li {
     padding: 0;
 }
 
+#project {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px dotted orangered;
+    padding: 30px;
+}
+
 #nav_bar {
     background-color: rgb(0, 182, 199);
     overflow: hidden;
