@@ -45,6 +45,10 @@ footer {
     padding: 30px;
 }
 
+img {
+    padding: 10px;
+}
+
 a:visited {
     color: #eeeeee;
 }
