@@ -42,6 +42,10 @@ a:visited {
     color: #eeeeee;
 }
 
+a:link {
+    color: #eeeeee;
+}
+
 #page_content {
     padding: 30px;
 }
