@@ -38,6 +38,13 @@ li {
     padding: 0;
 }
 
+footer {
+    background-color: #d65a31;
+    text-align: center;
+    color: #d2fafb;
+    padding: 30px;
+}
+
 a:visited {
     color: #eeeeee;
 }
