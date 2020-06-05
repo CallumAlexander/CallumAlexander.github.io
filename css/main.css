@@ -4,6 +4,7 @@ body {
     background-color: #393e46;
     max-width: 900px;
     margin: auto;
+    padding: 30px;
 }
 
 .TitleSection {
@@ -37,8 +38,16 @@ li {
     padding: 0;
 }
 
+a:visited {
+    color: #eeeeee;
+}
+
 #page_content {
     padding: 30px;
+}
+
+#page_description {
+    padding-bottom: 10px;
 }
 
 #project {
