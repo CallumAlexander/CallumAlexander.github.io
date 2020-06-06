@@ -34,8 +34,6 @@ html {
 
 li {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 footer {
@@ -57,6 +55,10 @@ a:link {
     color: #eeeeee;
 }
 
+a:hover {
+    color: #222831;
+}
+
 #page_content {
     padding: 30px;
 }
@@ -75,4 +77,17 @@ a:link {
     background-color: #d65a31;
     overflow: hidden;
     padding: 10px;
+}
+
+#nav_bar a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav_bar li {
+    list-style-type: none;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    float: left;
+    display: inline-block;
 }
