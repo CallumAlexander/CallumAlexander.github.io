@@ -23,7 +23,6 @@ h2 {
 
 p {
     font-family: 'Courier New', Courier, monospace;
-    border: 1px dotted #eeeeee;
     padding: 30px;
 }
 
@@ -90,4 +89,13 @@ a:hover {
     padding-bottom: 10px;
     float: left;
     display: inline-block;
+}
+
+#index_lorem_ipsum a {
+    text-decoration: none;
+    color: #d2fafb;
+}
+
+#index_lorem_ipsum a:hover {
+    color: #eeeeee;
 }
