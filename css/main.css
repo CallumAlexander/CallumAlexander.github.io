@@ -74,4 +74,5 @@ a:link {
 #nav_bar {
     background-color: #d65a31;
     overflow: hidden;
+    padding: 10px;
 }
