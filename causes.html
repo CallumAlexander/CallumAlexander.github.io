@@ -37,13 +37,17 @@
                 
             </ul>
 
-            <p>
-                As a member of Edinburgh University Men's Hockey Club, Action for Children is one of our partner charities
-                that we raise awareness and money for throughout the season. During May 2020, the Club started a fundraiser where
-                each of our seven teams would race each other across the distance between our home pitches, Peffermill, and Lloret
-                de Mar, where the club was meant to have their hockey tour. <br>
-                Action for Children work to support disadvantaged young people through difficult and turbulant times in their lives.
-            </p>
+            <button type="button" class="collapsible">Read More</button>
+
+            <div id="more_info">
+                <p>
+                    As a member of Edinburgh University Men's Hockey Club, Action for Children is one of our partner charities
+                    that we raise awareness and money for throughout the season. During May 2020, the Club started a fundraiser where
+                    each of our seven teams would race each other across the distance between our home pitches, Peffermill, and Lloret
+                    de Mar, where the club was meant to have their hockey tour. <br>
+                    Action for Children work to support disadvantaged young people through difficult and turbulant times in their lives.
+                </p>
+            </div>
 
         </div>
 
@@ -55,13 +59,17 @@
                 <li><a href="http://itsinthebag.org.uk/get-involved/volunteer/">Get involved with It's in the Bag</a></li>
             </ul>
 
-            <p>
-                It's in the Bag is a testicular cancer charity based in south-west England that raise awareness and support
-                for testicular cancer. <br>
-                As a member of Edinburgh University Men's Hockey Club, during November I attempt to grow some form of facial
-                hair on my upper lip (usually with little success lol) in order to raise awareness and support for It's in
-                the Bag.
-            </p>
+            <button type="button" class="collapsible">Read More</button>
+
+            <div id="more_info">
+                <p>
+                    It's in the Bag is a testicular cancer charity based in south-west England that raise awareness and support
+                    for testicular cancer. <br>
+                    As a member of Edinburgh University Men's Hockey Club, during November I attempt to grow some form of facial
+                    hair on my upper lip (usually with little success lol) in order to raise awareness and support for It's in
+                    the Bag.
+                </p>
+            </div>
 
       </div>
 
@@ -72,5 +80,25 @@
         <img src="https://wakatime.com/badge/github/CallumAlexander/CallumAlexander.github.io.svg"> <br>
         <i>Powered by CherryRoadrunner</i>
     </footer>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+
+                this.classList.toggle("active");
+                var more_info = this.nextElementSibling;
+
+                if (more_info.style.display === "block") {
+                    more_info.style.display = "none";
+                } else {
+                    more_info.style.display = "block";
+                }
+            });
+        }
+    </script>
+
     
 </html>
